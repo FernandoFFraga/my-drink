@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+body{
+    padding: 0;
+    height: 0;
+    background-color: #f1f1f1;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    height: auto;
+}
+
+.main{
+    padding: 50px 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.box{
+    width: 500px;
+}
+
+.banner{
+    height: 250px;
+    background-color: #ccc;
+}
+
+.question{
+    font-size: 1rem;
+    text-align: center;
+    background-color: #2c2c2c;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.answers{
+    margin-top: 20px;
+}
+
+.answers .item{
+    background-color: #fff;
+    padding: 15px 20px;
+    cursor: pointer;
+    border: transparent 2px solid;
+    transition: all .2s ease;
+    margin-top: 10px;
+}
+
+.answers .item:hover{
+    border: 2px solid rgb(103, 199, 90);
+    transition: all .2s ease;
+}
+
+.banner{
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.inst{
+    background-color: #506ad4;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+ 
+}
+
+.ings{
+    background-color: #fff;
+    color: rgb(46, 46, 46);
+    padding: 15px 0 5px;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.ingredients, .qtd{
+    width: 50%;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.ingredients{
+    border-right: 1px solid rgb(46, 46, 46);
+    text-align: right;
+}
+
+.qtd{
+    text-align: left;
+}
